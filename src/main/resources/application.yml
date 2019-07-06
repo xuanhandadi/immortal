@@ -1,0 +1,8 @@
+server:
+  port: 12345
+spring:
+  profiles:
+    include: oracle
+    active: dev
+  thymeleaf:
+    prefix: classpath:/templates/
